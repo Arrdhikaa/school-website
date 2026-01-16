@@ -157,5 +157,3 @@ Name  : Arrdhikaa
 📄 License
 
 This project is created for academic purposes and is free to use for learning.
-
-Translated with DeepL.com (free version)
