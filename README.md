@@ -1,139 +1,161 @@
-📘 Project Website PPDB Sekolah
+📘 School PPDB Project Website
 
+📌 Project Description
 
-📌 Deskripsi Project
+This project is a simple PPDB (New Student Admission) website created as a Web Programming course assignment. This website displays school information and provides a new student registration form with basic validation using HTML, CSS, and PHP (GET & POST) without a database.
 
-Project ini merupakan website PPDB (Penerimaan Peserta Didik Baru) sederhana yang dibuat sebagai tugas perkuliahan Web Programming. Website ini menampilkan informasi sekolah serta menyediakan form pendaftaran siswa baru dengan validasi dasar menggunakan HTML, CSS, dan PHP (GET & POST) tanpa database.
+This project focuses on:
 
-Project ini berfokus pada:
+Understanding the form flow (input → validation → output)
 
-Pemahaman alur form (input → validasi → output)
+Implementing a simple and consistent UI design
 
-Penerapan desain UI sederhana dan konsisten
-
-Simulasi sistem PPDB secara statis (non-produksi)
-
-
-
-
-🛠️ Teknologi yang Digunakan
-
-HTML5 – Struktur halaman
-
-CSS3 – Tampilan dan layout (Flexbox & Grid)
-
-PHP Native – Proses form & validasi (tanpa framework)
-
-Web Server Lokal – XAMPP / Laragon / localhost
+Simulating a static (non-production) PPDB system
 
 
 
+---
 
-📂 Struktur Folder
+🛠️ Technologies Used
+
+HTML5 – Page structure
+
+CSS3 – Display and layout (Flexbox & Grid)
+
+Native PHP – Form processing & validation (without framework)
+
+Local Web Server – XAMPP / Laragon / localhost
+
+
+
+---
+
+📂 Folder Structure
 
 /ppdb-project
-│── index.html          # Halaman utama website sekolah
-│── form_ppdb.php       # Form pendaftaran PPDB
-│── hasil_ppdb.php      # Halaman hasil & validasi pendaftaran
-│── style.css           # File styling utama
-│── /image              # Asset gambar & icon
-│── README.md           # Dokumentasi project
+│── index.html          # School website main page
+│── form_ppdb.php       # PPDB registration form
+│── hasil_ppdb.php      # Registration results & validation page
+│── style.css           # Main styling file
+│── /image              # Image & icon assets
+│── README.md           # Project documentation
+
+
+---
+
+🧾 Main Features
+
+School profile page
+
+Program & extracurricular information
+
+PPDB registration form
+
+Required input validation
+
+Report card score validation (minimum 80)
+
+NISN length restriction (database simulation)
+
+Registration results page
+
+Responsive & modern design
+
+
+
+---
+
+📝 Form Validation
+
+
+
+📝 Form Validation
+
+Validations applied:
+
+All fields are required
+
+NISN is limited to a maximum of 10 characters
+
+Indonesian Language, Mathematics, and Science scores must be at least 80
+
+Validations are performed in:
+
+HTML (client-side) using required & min
+
+PHP (server-side) using if conditions
+
+
+
+> This validation is a simulation for learning purposes.
 
 
 
 
-🧾 Fitur Utama
+---
 
-Halaman profil sekolah
+🔁 System Flow
 
-Informasi program & ekstrakurikuler
-
-Form pendaftaran PPDB
-
-Validasi input wajib
-
-Validasi nilai rapor (minimal 80)
-
-Pembatasan panjang NISN (simulasi database)
-
-Halaman hasil pendaftaran
-
-Desain responsif & modern
+1. User opens the website page
 
 
+2. User enters the PPDB Form page
 
 
-📝 Validasi Form
-
-Validasi yang diterapkan:
-
-Semua field wajib diisi
-
-NISN dibatasi maksimal 10 karakter
-
-Nilai Bahasa Indonesia, Matematika, dan IPA minimal 80
-
-Validasi dilakukan di:
-
-HTML (client-side) menggunakan required & min
-
-PHP (server-side) menggunakan kondisi if
+3. User fills in the registration data
 
 
-> Validasi ini bersifat simulasi untuk keperluan pembelajaran.
+4. Data is sent using the POST method
+
+
+5. PHP validates the data
+
+
+6. If the data is invalid → an error message appears
+
+
+7. If valid → registration results page appears
 
 
 
 
+---
 
-🔁 Alur Sistem
+⚠️ Important Notes
 
-1. User membuka halaman website
+The project does not use a database
 
-2. User masuk ke halaman Form PPDB
+Data is not permanently stored
 
-3. User mengisi data pendaftaran
-
-4. Data dikirim menggunakan metode POST
-
-5. PHP melakukan validasi data
-
-6. Jika data tidak valid → muncul pesan error
-
-7. Jika valid → tampil halaman hasil pendaftaran
+Used for learning and college assignments, not production
 
 
 
+---
+
+🎯 Learning Objectives
+
+Understand the concept of form submission
+
+Apply input validation
+
+Connect external CSS to PHP
+
+Practice simple web project structure
 
 
-⚠️ Catatan Penting
 
-Project tidak menggunakan database
-
-Data tidak disimpan permanen
-
-Digunakan untuk pembelajaran dan tugas kampus, bukan produksi
-
-
-
-🎯 Tujuan Pembelajaran
-
-Memahami konsep form submission
-
-Menerapkan validasi input
-
-Menghubungkan CSS eksternal ke PHP
-
-Melatih struktur project web sederhana
-
-
+---
 
 👤 Author
 
-Nama  : arrdh
-Prodi : sistem infromasi
+Name  : Arrdhikaa
 
 
-📄 Lisensi
+---
 
-Project ini dibuat untuk keperluan akademik dan bebas digunakan untuk pembelajaran.
+📄 License
+
+This project is created for academic purposes and is free to use for learning.
+
+Translated with DeepL.com (free version)
