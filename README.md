@@ -30,3 +30,7 @@ To run it:
 ## 📎 Notes
 This project was created for Web Programming learning purposes.
 Registration data is not stored in the database and is only displayed as user input results.
+
+👤 Author
+
+Ardhika GitHub: @arrdhh
